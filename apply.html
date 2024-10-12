@@ -1,39 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <body background="img/2.jpg" >
-    <marquee direction="right" scrollamount="10" bgcolor="black" color="white" align="top" height="30" width="100%"><font size="5" color=white>Welcome to St. Aloysius HSS's Website</font></marquee>
-    <nav align="center" >
-      <b>
-      <a href="courses.html"><font size=3px  color=black>COURSES</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
 
-      <a href="faculty.html"><font size=3px color=black>FACULTIES</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+<body background="img/2.jpg">
+  <marquee direction="right" scrollamount="10" bgcolor="black" height="30" width="100%" style="margin-top:-10px;">
+    <font size="5" color="black">Welcome to St. Aloysius HSS's Website</font>
+  </marquee>
 
-      <a href="contact.html"><font size=3px color=black>CONTACT INFO</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+  <table align="center" width="100%" bgcolor="grey" cellpadding="10" style="margin-top:-10px;">
+    <tr>
+      <td align="center">
+        <b>
+          <a href="courses.html">
+            <font size="3" color="white">COURSES</font>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="faculty.html">
+            <font size="3" color="white">FACULTIES</font>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="contact.html">
+            <font size="3" color="white">CONTACT INFO</font>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="events.html">
+            <font size="3" color="white">NEWS AND EVENTS</font>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="gallery.html">
+            <font size="3" color="white">GALLERY</font>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="about.html">
+            <font size="3" color="white">ABOUT SCHOOL</font>
+          </a>
+        </b>
+      </td>
+    </tr>
+  </table>
 
-      <a href="events.html"><font size=3px color=black>NEWS AND EVENTS</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+  <hr size="2" color="grey" width="100%">
 
-      <a href="gallery.html"><font size=3px color=black>GALLERY</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+  <a href="index.html">
+    <h5 align="left" style="margin-left: 40px; margin-top: 40px;">
+      <font size="5" color="black">&lt;= HOME</font>
+    </h5>
+  </a>
 
-      <a href="about.html"><font size=3px color=black>ABOUT SCHOOL</font></a>&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+  <form style="margin-left: 30px;">
+    <h3 style="color:black;">Personal Information</h3>
+    <table cellpadding="5" cellspacing="0">
+      <tr>
+        <td><b style="color:black;">Name:</b></td>
+        <td><input type="text" name="name" maxlength="50" size="40"></td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">Gender:</b></td>
+        <td>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">Register No:</b></td>
+        <td><input type="text" name="reg_no" maxlength="6" size="40"></td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">D.O.B:</b></td>
+        <td><input type="text" name="dob" maxlength="10" size="40"></td>
+      </tr>
+    </table>
 
-    </b>
-    </nav>
-    <hr size="2px" color="black" width="100%">
-    <a href="index.html">
-    <u><b>
-    <h5 align="left" style="margin-left: 40px; margin-top: 40px;"><font size="5" color="black">&lt;=HOME</font></h5>
-    </b></u>
-    </a>
-    <div align="left" style="margin-left: 30px;">
-    <h3>Name:</h3>
-    <input type="text" placeholder="USE CAPITAL LETTERS">
-    <h3>Gender:</h3>
-    <input type="radio">Male
-    <input type="radio">Female
-    <h3>Register no:</h3>
-    <input type="text" placeholder="6 digit reg no">
-    <h3>D.O.B:</h3>
-    <input type="text" placeholder="DD/MM/YYYY"><br>
-   <a href=""><font color="white" size="4"> SUBMIT </font> </a>
-  </body>
+    <br>
+
+    <h3 style="color:black;">Contact Information</h3>
+    <table cellpadding="5" cellspacing="0">
+      <tr>
+        <td><b style="color:black;">Address:</b></td>
+        <td><input type="text" name="address" maxlength="100" size="40"></td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">City:</b></td>
+        <td><input type="text" name="city" maxlength="50" size="40"></td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">Phone Number:</b></td>
+        <td><input type="text" name="phone" maxlength="15" size="40"></td>
+      </tr>
+      <tr>
+        <td><b style="color:black;">Email:</b></td>
+        <td><input type="text" name="email" maxlength="50" size="40"></td>
+      </tr>
+    </table>
+
+    <br><br>
+    <center><input type="submit" value="Submit"></center>
+  </form>
+</body>
+
 </html>
